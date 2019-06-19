@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+                                        a:hover, a:active {
+    background-color: black;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+              div{  background-color: lightgrey;
+    width: 500px;
+    border: 60px black;
+    padding: 10px;
+    margin-right:  auto;
+    margin-left:  auto;     
+            
+            table {
+                                        font-family: arial, sans-serif;
+                                        border-collapse: collapse;
+                                        width: 20%;
+                                              }
+
+                                        td, th {
+                                        border: 4px solid black;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #dddddd;
+                                        
+                                        }
+              }
+</style>
+    </head>
+    <body style="background-color :gray;" background="finalimg/finp.jpg">
+        <div>update the work</div>
+        
+        <form name="ProjectDetail" method="get" action="Update">
+         Contract_id to fetch data :
+            <input type ="text" name="Contract_id"/> <br>
+            Project details to be updated:
+           
+    <select name="Projected">
+    <option value="Earth Work">Earth Work</option>
+    <option value="Plinth Work">Plinth Work</option>
+    <option value="Lintels">Lintels</option>
+    <option value="Masonry Work">Masonry Work</option>
+    <option value="Doors&Windows">Doors&Windows</option>
+    <option value="Plastering">Plastering</option>
+    <option value="Electric Work">Electric Work</option>
+    <option value="External Development">External Development</option>
+   
+  </select>
+   
+   
+   <br><br>
+            
+             
+            <input type ="submit" name="submit" value="submit">
+            
+            
+            
+    </form>
+    </body>
+</html>

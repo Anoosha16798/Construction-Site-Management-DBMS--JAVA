@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a:hover, a:active {
+    background-color: black;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+              div{  background-color: lightgrey;
+    width: 500px;
+    border: 60px black;
+    padding: 10px;
+    margin-right:  auto;
+    margin-left:  auto;     
+            
+            table {
+                                        font-family: arial, sans-serif;
+                                        border-collapse: collapse;
+                                        width: 20%;
+                                              }
+
+                                        td, th {
+                                        border: 4px solid black;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #dddddd;
+                                        
+                                        }
+              }
+</style>
+    </head>
+    <body  style="background-color :gray;" background="finalimg/FinalPage.jpg">
+      <!-- <img src="finalimg/FinalPage.jpg">
+        -->
+         <form name="Electric" method="get" action="Planning2servlet">
+             <div>
+             <table>
+                 
+                
+                         <p>Electric/Plumbing</p>
+                   
+                     <tr>
+                         <td>
+                             <p>Contract_id </p>
+                         </td>
+                         <td>
+                             <input type ="number"  name="Contract_id"
+                             placeholder="Contract_id" />
+                         </td>
+                    </tr>
+                    <tr>
+                     <td>
+                         <p>HOUSE</p>
+                     </td>
+                     <td>
+                         <select name="Lights">
+                             <option value="1bhk">1bhk</option>
+                             <option value="2bhk">2bhk</option>
+                             <option value="3bhk">3bhk</option>
+                             <option value="4bhk">4bhk</option>
+                         </select>
+                     </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Fans</p>
+                        </td>
+                        <td>
+                            <select name="NoOfFans">
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+    
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <p>Washroom</p>
+                        </td>
+                        <td>
+                            <select name="TypeOfWashroom">
+      
+                        <option value="Western">Western</option>
+                        <option value="Indian">Indian</option>
+                        <option value="1Western, 1Indian">1Western,1Indian </option>
+                        <option value="only Western">only Western</option>
+                        <option value="only Indian">only Indian</option>
+    
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit">
+                        </td>
+                            
+                        
+                    </tr>
+      </table>
+                 </div>
+                </form>
+        
+    </body>
+</html>

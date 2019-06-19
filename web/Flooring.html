@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         a:hover, a:active {
+    background-color: black;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+              div{  background-color: lightgrey;
+    width: 500px;
+    border: 60px black;
+    padding: 10px;
+    margin-right:  auto;
+    margin-left:  auto;     
+            
+            table {
+                                        font-family: arial, sans-serif;
+                                        border-collapse: collapse;
+                                        width: 20%;
+                                              }
+
+                                        td, th {
+                                        border: 4px solid black;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #dddddd;
+                                        
+                                        }
+              }
+                                     
+</style>
+    </head>
+    <body style="background-color :gray;" background="finalimg/finp.jpg">
+       
+        
+        <form name="" method="get" action="Planning3Servlet">
+            
+            <h1>Flooring/Doors</h1>
+            <div>     
+            <table>
+                <tr>
+                    <td>
+                        <p>Contract_id</p>
+                    </td>
+                    <td>
+                     
+     <input type ="number"  name="Contract_id"
+                       placeholder="Contract_id"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                          <p>FlooringType</p>
+                    </td>
+                    <td>
+                        <select name="FlooringType">
+      
+                         <option value="Wooden">Wooden</option>
+                         <option value="Tile">Tile</option>
+                         <option value="Laminate">Laminate</option>
+    
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>DoorType</p>
+                    </td>
+                    <td>
+                         <select name="DoorType">
+                             <option value="RoseWood">RoseWood</option>
+                              <option value="TeakWood">TeakWood</option>
+                         </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <input type="submit">
+                    </td>
+                </tr>
+            </table>
+            </div>
+        </form>
+       
+    </body>
+</html>

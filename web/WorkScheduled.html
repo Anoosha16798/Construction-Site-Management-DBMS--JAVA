@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    
+a:hover, a:active {
+    background-color: black;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+              div{  background-color: lightsalmon;
+    width: 400px;
+    border: 50px lightsteelblue;
+    padding: 10px;
+    margin-right:  auto;
+    margin-left:  auto;
+              
+            
+                                        table {
+                                        font-family: arial, sans-serif;
+                                          margin: auto;
+                                        border-collapse: collapse ;
+                                        border:  5px solid black;
+                                        width: 40%;
+                                        height: 7000%;
+                                              }
+
+                                        td, th {
+                                        border: 1px solid lightsteelblue;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #888;
+                                        }
+                                        
+                 
+</style>
+    </head>
+    <body style="background-color :gray;" background="finalimg/finp.jpg">
+       
+        
+        <h1>Project Status</h1>
+        
+<form name="Status" method="get" action="WorkScheduleServlet">
+    <div>
+    <table>
+        <tr>
+            <td>
+                <p>Contract_id</p>
+            </td>
+            <td>
+                <input type ="number"  name="Contract_id"
+           placeholder="Contract_id"/></br>
+            </td>
+        </tr>
+    </table>
+        <div>
+    
+               
+            
+                <input type="checkbox" name="EW" value="" checked> Earth Work<br>
+           
+               <input type="checkbox" name="PW" value="Plinth Work"> Plinth Work<br> 
+            
+            
+ <input type="checkbox" name="SW" value="Slab Work"> Slab Work<br><br>
+  <input type="checkbox" name="L" value="Lintels">Lintels<br>
+  <input type="checkbox" name="MW" value="Masonry Work">Masonry Work<br>
+  <input type="checkbox" name="DW" value="Doors&Winndows">Doors&Winndows<br>
+  <input type="checkbox" name="P" value="Plastering">Plastering<br>
+  <input type="checkbox" name="EL" value="Electric Work">Electric Work<br>
+  <input type="checkbox" name="ED" value="External Dev">External Dev<br>
+  <input type="checkbox" name="FC" value="Final Check">Final Check<br>
+
+  
+                 <input type="submit" value="Submit">
+           
+            
+            
+     
+    
+</form>
+           
+    </body>
+</html>

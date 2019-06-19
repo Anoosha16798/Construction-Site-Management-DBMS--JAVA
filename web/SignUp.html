@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script type="text/javascript" src="Validate.js"> 
+ 
+</script>
+   <link rel="stylesheet" type="text/css" href="StyleSign.css">
+
+    
+   
+    
+    
+</head>
+<!--<body>
+    <h1 style="text-align: center"> REGISTRATION FORM</h1>
+              
+<form name="RegForm" action="BasicInfoServlet" onsubmit="return validateForm()" method="get"> 
+    <table>
+        
+    <p>Name: <input type="text" size=65 name="Name"> </p><br>        
+    <p> Address: <input type="text" size=65 name="Address">  </p><br> 
+    <p>Email: <input type="text" size=65 name="Email">  </p><br> 
+     <p>Password: <input type="text" size=65 name="Password"> </p><br> 
+    <p>Phone: <input type="text" size=65 name="Phone"> </p><br>   
+           
+    
+     
+    <p><input type="submit" value="send" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>
+       </table>   
+</form> 
+    
+    
+     <a href="Login.html">Login</a>
+</body>
+
+</html>
+
+
+</html>
+-->
+ <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="RegServlet" onsubmit="return validateForm()" method="get">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="Name" required>
+       <label for="Address"><b>Address</b></label>
+      <input type="text" placeholder="Enter Address" name="Address" required>
+      <label for="Email"><b>Email</b></label>
+      <input type="text" placeholder="Email" name="Email" required>
+
+      <label for="Password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="Password" required>
+
+      <label for="User"><b>User</b></label>
+    
+      <select name="User">
+              
+        <option value="Manager">Manager</option>
+        <option value="Client">Client </option>
+           
+         </select> 
+          
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>

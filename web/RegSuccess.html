@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        div {
+    background-color: lightgrey;
+    width: 500px;
+    border: 55px solid black;
+    padding: 55px;
+    margin : auto;
+}
+                                        table {
+                                        font-family: arial, sans-serif;
+                                        border-collapse: collapse;
+                                        width: 20%;
+                                              }
+
+                                        td, th {
+                                        border: 1px solid #dddddd;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #dddddd;
+                                        
+                                        }
+                                        a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+</style></head>
+    <body style= "background-color :gray;'"  background="finalimg/finp.jpg">
+        <div>
+        <form name="RegSuccess" method="get" action="RegSuccessServlet">
+        <h2>You have succesfully registered now</h2>
+     Please use the given ContractId for future reference
+        <input type ="text"  name="Name" placeholder="Name"/></br>
+                
+        <input type="submit" name="action" value="Get_ID"/></br>
+    
+        </form>
+         </div>
+    </body>
+</html>

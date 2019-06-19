@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+               a:hover, a:active {
+    background-color: black;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+              div{  background-color: lightgrey;
+    width: 500px;
+    border: 60px black;
+    padding: 10px;
+    margin-right:  auto;
+    margin-left:  auto;     
+            
+            table {
+                                        font-family: arial, sans-serif;
+                                        border-collapse: collapse;
+                                        width: 20%;
+                                              }
+
+                                        td, th {
+                                        border: 4px solid black;
+                                        text-align: middle;
+                                        padding: 1px;
+                                                }
+
+                                        tr:nth-child(even) {
+                                        background-color: #dddddd;
+                                        
+                                        }
+                     }
+</style>
+    </head>
+    <body style= "background-color :gray;'"  background="finalimg/finp.jpg">
+      
+        
+        <div>
+            <h1> Type of bulding</h1>
+       <form name="" method="get" action="Planning1Servlet" >
+        
+     
+       
+            
+             <table>
+                <tr>
+                    <td>
+                        <p>Contract_id</p>
+                    </td>
+                    <td>
+                    <input type ="number"  name="action"
+                       placeholder="Contract_id"/>
+                    </td>
+                </tr>
+                </table>
+        
+            
+                        
+                <table>
+                <tr>
+                    <td>
+                        <p>INDEPENDENT</p>
+                    </td>
+                    <td>
+                         <select name="independent">
+      
+    <option value="1bhk">1bhk</option>
+    <option value="2bhk">2bhk</option>
+    <option value="3bhk">3bhk</option>
+    <option value="Duplex(3bhk)">Duplex(3bhk)</option>
+     <option value="Duplex(4bhk)">Duplex(4bhk)</option>
+  </select>
+                    </td>
+                    <td>
+                        <input type="submit" name="action" >
+
+                        
+                    </td>
+                </tr>
+                </table>
+                          </form>
+                              <form name="" method="get" action="Planning1Servlet" >
+            <table>
+                <tr>
+                    <td>
+                         <p>APARTMENT-(2house(2bhk) in each floor)</p>
+                    </td>
+                    <td>
+                        <select name="apartment1">
+    <option value="3Floors">3Floors</option>
+    <option value="4Flooors">4Floors</option>
+    <option value="5Floors">5Floors</option>
+  </select>
+                    </td>
+                    <td>
+                        <input type="submit" name="action">
+                    </td>
+                   
+                </tr>
+                
+                
+            </table>
+                              </form>
+       <form name="" method="get" action="Planning1Servlet">
+        <table>
+            <tr>
+                <td>
+                    <p>APARTMENT -(2house(3bhk) in each floor)</p>
+                </td>
+                <td>
+                    <select name="apartment2">
+    <option value="3Floors">3Floors</option>
+    <option value="4Flooors">4Floors</option>
+    <option value="5Floors">5Floors</option>
+  </select>
+                </td>
+                <td>
+                     <input type="submit" name="action">
+                </td>
+            </tr>
+        </table>
+        
+         
+      
+        
+    </div>
+     
+       </body>
+      
+    
+</html>
